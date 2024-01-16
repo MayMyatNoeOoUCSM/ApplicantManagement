@@ -30,6 +30,7 @@ namespace ApplicantManagement
         private void InitializeComponent()
         {
             this.lblLogin = new System.Windows.Forms.Label();
+            this.btnLogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblLogin
@@ -41,11 +42,21 @@ namespace ApplicantManagement
             this.lblLogin.TabIndex = 0;
             this.lblLogin.Text = "Login";
             // 
+            // btnLogin
+            // 
+            this.btnLogin.Location = new System.Drawing.Point(452, 151);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(75, 23);
+            this.btnLogin.TabIndex = 1;
+            this.btnLogin.Text = "LOGIN";
+            this.btnLogin.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.lblLogin);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -57,6 +68,7 @@ namespace ApplicantManagement
         #endregion
 
         private System.Windows.Forms.Label lblLogin;
+        private System.Windows.Forms.Button btnLogin;
     }
 }
 
