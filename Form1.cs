@@ -16,5 +16,6 @@ namespace ApplicantManagement
         {
             InitializeComponent();
         }
+
     }
 }
